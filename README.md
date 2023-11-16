@@ -1,4 +1,4 @@
-# terraform-examples-azure
+# Terraform Azure Examples
 Examples of various Terraform activities done in Azure
 
 ## Examples
