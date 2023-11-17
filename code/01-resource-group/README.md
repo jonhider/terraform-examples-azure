@@ -10,8 +10,8 @@
 </ul>
 
 ## Terraform Workflow
-* terraform init - Initialize the configuration<br />Initialize the Terraform configuration using the command ```terraform init```, which initilizes the working directory containing the Terraform configuration files, as well as download the AzureRM provider, which is notid in the ```providers.tf``` file<br /><br />
-* terraform validate - Validate the configuration<br />```terraform plan``` validates and verifies the syntax of the configuration files, before any changes are actually made to the infrastructure<br /><br />
-* terraform plan - Create the executation plan<br />```terraform apply``` initiates the configuration changes to the Azure infrastructure.<br /><br />
-* terraform apply - Apply configuration changes to infrastructure<br />Not part of the actual Terraform workflow, but the command ```terraform destroy``` review the configurations set in the ```terraform plan``` stage and destroys the infrastructure objects as needed.<br /><br />
-* terraform destroy - Remove or clean up resources<br /><br />
+* Initialize the configuration<br />Command: ```terraform init``` - initilizes the working directory containing the Terraform configuration files, as well as download the AzureRM provider, which is notd in the ```providers.tf``` file<br /><br />
+* Validate the configuration"<br />Command: ```terraform validate``` - validates and verifies the syntax of the configuration files.  Implicitely done in the ```terraform plan``` stage
+* terraform plan - Create the executation plan<br />Command: ```terraform apply``` initiates the configuration changes to the Azure infrastructure.<br /><br />
+* terraform apply - Apply configuration changes to infrastructure<br />Command: ```terraform apply``` initiates the configuration changes to the Azure infrastructure and updates the tfstate.tf file<br /><br />
+* terraform destroy - Remove or clean up resources<br />Command ```terraform destroy``` not part of the actual Terraform workflow, but reviews the configurations set in the ```terraform plan``` stage and destroys the infrastructure objects in the plan.  Typically used for clean up purposes.
