@@ -9,8 +9,8 @@
 
 ## Terraform Workflow
 1. Initialize<br />Initilizes the working directory containing the Terraform configuration files, as well as download the AzureRM provider, which is notd in the ```providers.tf``` file
-
-Command<br />```terraform init``` - 
+Command
+    ```terraform init```
 
 2. Validate<br />Command: ```terraform validate``` - validates and verifies the syntax of the configuration files.  Implicitely done in the ```terraform plan``` stage<br /><br />
 3. Plan<br />Command: ```terraform plan``` - Create the executation plan<br /><br />
