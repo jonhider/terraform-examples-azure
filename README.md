@@ -1,4 +1,4 @@
-# Terraform Azure Examples
+## Terraform Azure Examples
 
 <p>Terraform is one of the open source tools that was introduced to the market by HashiCorp in 2014 as "Infrastructure as Code (IaC) software. IaC means we can write code for our infrastructure, that's used for building, updating, and managing cloud infrastructure. Terraform is "cloud-agnostic" and has support for multiple cloud platforms, including Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP), on-premises infrastructure and many others.  It has simple workflow of terraform init (initialize), terraform plan (plan configuration), terraform apply (create infrastructure).</p>
 
@@ -6,10 +6,7 @@
 
 <p>My current focus is on Azure services and this repo will reflect it.  I plan to at some point, replicate the Azure configuration files in this repo to a Google Cloud Platform (GCP) repository</p>
 
- ### Examples of various Terraform activities done in Azure.<br /><br />
- 
-
-### Examples of Terraform configurations in Azure
+## Examples of Terraform configurations in Azure
 All code is in the [code](https://github.com/jonhider/terraform-examples-azure/tree/main/code) folder and a README is included in each folder.<br /><br />
 [00-azure-authentication](https://github.com/jonhider/terraform-examples-azure/tree/main/code/00-azure-authentication) - Terraform authentication to Azure<br />
 [01-resource-group](https://github.com/jonhider/terraform-examples-azure/tree/main/code/01-resource-group) - Create an Azure resource group<br />
