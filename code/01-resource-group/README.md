@@ -8,16 +8,25 @@
 * [Terraform Azurerm](https://registry.terraform.io/providers/hashicorp/azurerm/latest) provider, which interacts with the Azure resource manager via APIs
 
 ## Terraform Workflow
-1. Initialize<br />Initilizes the working directory containing the Terraform configuration files, as well as download the AzureRM provider, which is notd in the ```providers.tf``` file
-Command
-
-    ```terraform init```
-
-2. Validate<br />Command: ```terraform validate``` - validates and verifies the syntax of the configuration files.  Implicitely done in the ```terraform plan``` stage<br /><br />
-3. Plan<br />Command: ```terraform plan``` - Create the executation plan<br /><br />
-4. Apply<br />Command: ```terraform apply``` - initiates the configuration changes to the Azure infrastructure and updates the tfstate.tf file<br /><br />
-5. Destroy<br />Command: ```terraform destroy``` - not part of the actual Terraform workflow, but reviews the configurations set in the ```terraform plan``` stage and destroys the infrastructure objects in the plan.  Typically used for clean up purposes.
-
+1. Initialize - Initilizes the working directory containing the Terraform configuration files, as well as download the AzureRM provider, which is notd in the ```providers.tf``` file
 ```
     terraform init
+```
+
+2. Validate - Verifies the syntax of the configuration files.  Implicitely done in the ```terraform plan``` stage
+```
+    terraform validate
+```
+3. Plan - Create the executation plan
+```
+    terraform plan
+```
+4. Apply - Initiates the configuration changes to the Azure infrastructure and updates the tfstate.tf file
+```
+    terraform apply
+```
+5. Destroy - Reviews the configurations set in the ```terraform plan``` stage and destroys the infrastructure objects in the plan.  Typically used for clean up purposes and not Terraform workflow
+
+```
+    terraform destroy
 ```
