@@ -12,3 +12,4 @@ Examples of various Terraform activities done in Azure
 [08-virtual-network](https://github.com/jonhider/terraform-examples-azure/tree/main/code/08-virtual-network) - Create an Azure virtual network (Vnet)<br />
 [09-public-ip](https://github.com/jonhider/terraform-examples-azure/tree/main/code/09-public-ip) - Create a public ip address for vm public accessiblity<br />
 [10-load-balancer](https://github.com/jonhider/terraform-examples-azure/tree/main/code/10-load-balancer) - Manage Azure traffice with an Azure load balancer<br />
+[11-modules](https://github.com/jonhider/terraform-examples-azure/tree/main/code/11-modules) - Terraform modules<br />
