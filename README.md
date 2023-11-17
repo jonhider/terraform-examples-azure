@@ -2,6 +2,7 @@
 Examples of various Terraform activities done in Azure
 
 ## Examples
+[00-azure-authentication](https://github.com/jonhider/terraform-examples-azure/tree/main/code/00-azure-authentication) - Terraform authentication to Azure<br />
 [01-resource-group](https://github.com/jonhider/terraform-examples-azure/tree/main/code/01-resource-group) - Create an Azure resource group<br />
 [02-storage-account](https://github.com/jonhider/terraform-examples-azure/tree/main/code/02-storage-account) - Create a storage account<br />
 [03-variables](https://github.com/jonhider/terraform-examples-azure/tree/main/code/03-variables) - Create an Azure object using variables<br />
