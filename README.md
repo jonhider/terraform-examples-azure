@@ -7,9 +7,10 @@
 <p>My current focus is on Azure services and this repo will reflect it.  I plan to at some point, replicate the Azure configuration files in this repo to a Google Cloud Platform (GCP) repository</p>
 
  ### Examples of various Terraform activities done in Azure.<br /><br />
- All code is in the [code](https://github.com/jonhider/terraform-examples-azure/tree/main/code) folder and a README is included in each folder.
+ 
 
-### Examples
+### Examples of Terraform configurations in Azure
+All code is in the [code](https://github.com/jonhider/terraform-examples-azure/tree/main/code) folder and a README is included in each folder.<br /><br />
 [00-azure-authentication](https://github.com/jonhider/terraform-examples-azure/tree/main/code/00-azure-authentication) - Terraform authentication to Azure<br />
 [01-resource-group](https://github.com/jonhider/terraform-examples-azure/tree/main/code/01-resource-group) - Create an Azure resource group<br />
 [02-storage-account](https://github.com/jonhider/terraform-examples-azure/tree/main/code/02-storage-account) - Create a storage account<br />
