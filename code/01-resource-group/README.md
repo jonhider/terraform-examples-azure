@@ -4,7 +4,7 @@
 
 ## Requirements
 * [Azure subscription](https://portal.azure.com)
-* [Terraform version](https://www.terraform.io/): 1.6.0 or later
+* [Terraform Install](https://developer.hashicorp.com/terraform/install?ajs_aid=fe9a4574-f8ea-4afc-8a23-e1b555adc5a7&product_intent=terraform)
 * [Terraform Azurerm](https://registry.terraform.io/providers/hashicorp/azurerm/latest) provider, which interacts with the Azure resource manager via APIs
 
 ## Terraform Workflow
@@ -25,7 +25,7 @@
 ```
     terraform apply
 ```
-5. Destroy - Reviews the configurations set in the ```terraform plan``` stage and destroys the infrastructure objects in the plan.  Typically used for clean up purposes and not Terraform workflow
+5. Destroy - Reviews the configurations set in the ```terraform plan``` stage and destroys the infrastructure objects in the plan.  Typically used for clean up purposes and not part of workflow
 
 ```
     terraform destroy
