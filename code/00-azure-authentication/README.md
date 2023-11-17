@@ -1,4 +1,4 @@
-## Azure Authentication
+## Terraform Authentication to Azure
 There are several methods to authenticate Terraform to Azure.  Hashcorp recommends authentication via the Azure CLI, when running Terraform locally.<br />
 * [Authenticating using the Azure CLI](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/azure_cli)
 * [Authenticating using Managed Identity](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/managed_service_identity)
