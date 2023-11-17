@@ -18,5 +18,6 @@ Command
 4. Apply<br />Command: ```terraform apply``` - initiates the configuration changes to the Azure infrastructure and updates the tfstate.tf file<br /><br />
 5. Destroy<br />Command: ```terraform destroy``` - not part of the actual Terraform workflow, but reviews the configurations set in the ```terraform plan``` stage and destroys the infrastructure objects in the plan.  Typically used for clean up purposes.
 
-
- ```terraform init```
+```
+    terraform init
+```
