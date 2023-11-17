@@ -1,5 +1,6 @@
 # Terraform Azure Examples
-Examples of various Terraform activities done in Azure. All code is in the [code](https://github.com/jonhider/terraform-examples-azure/tree/main/code) folder and a README is included in each folder.
+Examples of various Terraform activities done in Azure.<br /><br />
+ All code is in the [code](https://github.com/jonhider/terraform-examples-azure/tree/main/code) folder and a README is included in each folder.
 
 ## Examples
 [00-azure-authentication](https://github.com/jonhider/terraform-examples-azure/tree/main/code/00-azure-authentication) - Terraform authentication to Azure<br />
