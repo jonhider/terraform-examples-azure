@@ -1,4 +1,4 @@
-## Example: Azure Authentication Using Azure CLI
+## Azure Authentication Using Azure CLI
 There are several ways to authenticate Terraform, but Hashcorp recommends authentication via the Azure CLI, when running Terraform locally.<br />
 * [Authenticating using the Azure CLI](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/azure_cli)
 * [Authenticating using Managed Identity](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/managed_service_identity)
