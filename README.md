@@ -13,6 +13,7 @@ All code is in the [code](https://github.com/jonhider/terraform-examples-azure/t
 | Module | Description |
 | --- | --- |
 | [00-azure-authentication](https://github.com/jonhider/terraform-examples-azure/tree/main/code/00-azure-authentication) | Terraform authentication to Azure |
+| [00-getting-started](https://github.com/jonhider/terraform-examples-azure/tree/main/code/00-getting-started) | Terraform Getting Started |
 | [01-resource-group](https://github.com/jonhider/terraform-examples-azure/tree/main/code/01-resource-group) | Create an Azure resource group |
 | [02-storage-account](https://github.com/jonhider/terraform-examples-azure/tree/main/code/02-storage-account) | Create a storage account |
 | [03-variables](https://github.com/jonhider/terraform-examples-azure/tree/main/code/03-variables) | Create an Azure object using variables |
