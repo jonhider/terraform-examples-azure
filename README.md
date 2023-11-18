@@ -11,6 +11,7 @@ My current focus is on Azure services and this repo will reflect it.  I plan to 
 All code is in the [code](https://github.com/jonhider/terraform-examples-azure/tree/main/code) folder and a README is included in each folder.<br /><br />
 
 | Module | Description |
+| --- | --- |
 | [00-azure-authentication](https://github.com/jonhider/terraform-examples-azure/tree/main/code/00-azure-authentication) | Terraform authentication to Azure |
 | [01-resource-group](https://github.com/jonhider/terraform-examples-azure/tree/main/code/01-resource-group) | Create an Azure resource group |
 | [02-storage-account](https://github.com/jonhider/terraform-examples-azure/tree/main/code/02-storage-account) | Create a storage account |
