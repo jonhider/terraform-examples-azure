@@ -3,13 +3,13 @@ The following information is the basic building blocks of all Terraform function
 
 ## Terraform Providers
 A ```provider``` is an executable plugin that is download from the Hashicorp registry at the implementation of the ```terraform init``` command.  The provider block defines the version of the plugin and passes intilialization arguements to the provider, such as authentication or project details.  
-<br /><br />
+<br />
 Depending on the provider, a set of resource types is available from each provider plugin and helps define what arguments a resource can accept and attributes that can be exported as output values
-<br /><br />
+<br />
 [Terraform Registry](https://registry.terraform.io) is the main directory of publically available Terraform providers and the registry hosts providers for most major infrastructure platforms.
-<br /><br />
+<br />
 Providers are defined within any file ending ```.tf``` or ```.tf.json``` and a best practice is define the provider block within a ```providers.tf``` file.
-<br /><br />
+<br />
 <b>Example: AzureRM Terraform Provider</b> [Terraform: AzureRM Provider](https://registry.terraform.io/providers/hashicorp/azurerm/latest)
 
 ```
