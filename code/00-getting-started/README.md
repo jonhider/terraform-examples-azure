@@ -82,6 +82,7 @@ resource "azurerm_resource_group" "azure-pip" {
     }
 }
 ```
+Example: Variable create in ```variables.tf``` file
 ```
 variable "rgname" {
     type = string
@@ -149,7 +150,7 @@ resource "azurerm_resource_group" "azure-pip" {
     }
 }
 ```
-
+Example: Output values in ```output.tf``` file
 ```
 output "id" {
     value = azurerm_public_ip.example.id
