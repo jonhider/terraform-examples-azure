@@ -7,7 +7,7 @@ Terraform mainly uses Terraform configurationfiles ending with .tf or .tf.json, 
 My current focus is on Azure services and this repo will reflect it.  I plan to at some point, replicate the Azure configuration files in this repo to a Google Cloud Platform (GCP) repository
 <br /><br />
 
-### Examples of Terraform configurations in Azure
+## Terraform configurations in Azure Examples
 All code is in the [code](https://github.com/jonhider/terraform-examples-azure/tree/main/code) folder and a README is included in each folder.<br /><br />
 [00-azure-authentication](https://github.com/jonhider/terraform-examples-azure/tree/main/code/00-azure-authentication) - Terraform authentication to Azure<br />
 [01-resource-group](https://github.com/jonhider/terraform-examples-azure/tree/main/code/01-resource-group) - Create an Azure resource group<br />
