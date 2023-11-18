@@ -31,9 +31,9 @@ All code is in the [code](https://github.com/jonhider/terraform-examples-azure/t
 
 ## Terraform CLI
 
-Terraform CLI is an open source command line application created by Hashicorp allowing you to run difference commands and sub commmands.  The main commands are ```init```, ```plan```. and ```apply```.  The sub commands can be ran as flags after the main command.  Run ```terraform``` from any command line to see the output.
+Terraform CLI is an open source command line application created by Hashicorp allowing you to run difference commands and sub commmands.  The main commands are ```init```, ```plan```, and ```apply```.  The sub commands can be ran as flags after the main command.  Run ```terraform``` from any command line to see the output.
 <br /><br />
-To get help with any command, simply run ```terra_command -h```
+To get help with any command, simply run ```terraform_command -h``` Ex: ```terraform init -h```
 <br/><br />
 ```
 PS C:\_development\> terraform
