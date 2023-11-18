@@ -1,6 +1,6 @@
 ## Example: Terraform "Resource Group"
 
-<p>This folder contains the example files needed to create a resource group in an Azure subscription.
+This folder contains the example files needed to create an ```Azure load balancer (lb)```.
 
 ## Requirements
 * [Azure subscription](https://portal.azure.com)
