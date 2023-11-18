@@ -60,9 +60,8 @@ resource "azurerm_resource_group" "azure-pip" {
 
 
 ## Terraform Variables
-Terraform variables are defined input values to execute your configuration code.<br /><br />
+Terraform variables are defined input values to execute your configuration code.  After the variable is defined, it needs to be declared and can be declared in any file ending ```.tf``` and generally put in ```main.tf```<br /><br />
 The syntax is <argument_name> = var.<variable_name><br /><br />
-After the variable is defined, it needs to be declared and can be declared in any file ending ```.tf``` and generally put in ```main.tf```
 
 ```
 resource "azurerm_resource_group" "example" {
