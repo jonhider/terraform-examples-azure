@@ -48,7 +48,7 @@ variable "subnet_name" {
 
 variable "nic_name" {
   type = string
-  description = "VM nic name"
+  description = "VM nic card name"
 }
 
 variable "vm_name" {

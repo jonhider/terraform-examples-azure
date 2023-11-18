@@ -26,7 +26,7 @@ All code is in the [code](https://github.com/jonhider/terraform-examples-azure/t
 | [11-modules](https://github.com/jonhider/terraform-examples-azure/tree/main/code/11-modules) | Terraform modules |
 | [12-provisioners](https://github.com/jonhider/terraform-examples-azure/tree/main/code/12-provisioners) | Terraform provisioners |
 | [13-loops](https://github.com/jonhider/terraform-examples-azure/tree/main/code/13-loops) | Terraform loops |
-| [14-functions](https://github.com/jonhider/terraform-examples-azure/tree/main/code/14-functions) | Terraform loops |
+| [14-functions](https://github.com/jonhider/terraform-examples-azure/tree/main/code/14-functions) | Terraform functions |
 
 
 ## Terraform CLI
