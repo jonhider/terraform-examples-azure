@@ -12,22 +12,24 @@ All code is in the [code](https://github.com/jonhider/terraform-examples-azure/t
 
 | Module | Description |
 | --- | --- |
-| [00-azure-authentication](https://github.com/jonhider/terraform-examples-azure/tree/main/code/00-azure-authentication) | Terraform authentication to Azure |
 | [00-getting-started](https://github.com/jonhider/terraform-examples-azure/tree/main/code/00-getting-started) | Terraform Getting Started |
-| [01-resource-group](https://github.com/jonhider/terraform-examples-azure/tree/main/code/01-resource-group) | Create an Azure resource group |
-| [02-storage-account](https://github.com/jonhider/terraform-examples-azure/tree/main/code/02-storage-account) | Create a storage account |
-| [03-variables](https://github.com/jonhider/terraform-examples-azure/tree/main/code/03-variables) | Create an Azure object using variables |
-| [04-terraform-state](https://github.com/jonhider/terraform-examples-azure/tree/main/code/04-terraform-state) | Terraform state |
-| [05-depends_on](https://github.com/jonhider/terraform-examples-azure/tree/main/code/05-depends_on) | ```depends_on``` to manage execution and dependencies |
-| [06-container-blob](https://github.com/jonhider/terraform-examples-azure/tree/main/code/06-container-blob) | Create an Azure blob storage container |
-| [07-network-security-group](https://github.com/jonhider/terraform-examples-azure/tree/main/code/07-network-security-group) | Create an Azure network security group |
-| [08-virtual-network](https://github.com/jonhider/terraform-examples-azure/tree/main/code/08-virtual-network) | Create an Azure virtual network (Vnet) |
-| [09-public-ip](https://github.com/jonhider/terraform-examples-azure/tree/main/code/09-public-ip) | Create a public ip address for vm public accessiblity |
-| [10-load-balancer](https://github.com/jonhider/terraform-examples-azure/tree/main/code/10-load-balancer) | Manage Azure traffic with an Azure load balancer |
-| [11-modules](https://github.com/jonhider/terraform-examples-azure/tree/main/code/11-modules) | Terraform modules |
-| [12-provisioners](https://github.com/jonhider/terraform-examples-azure/tree/main/code/12-provisioners) | Terraform provisioners |
-| [13-loops](https://github.com/jonhider/terraform-examples-azure/tree/main/code/13-loops) | Terraform loops |
-| [14-functions](https://github.com/jonhider/terraform-examples-azure/tree/main/code/14-functions) | Terraform functions |
+| [01-azure-authentication](https://github.com/jonhider/terraform-examples-azure/tree/main/code/01-azure-authentication) | Terraform authentication to Azure |
+| [02-management-group](https://github.com/jonhider/terraform-examples-azure/tree/main/code/02-management-group) | Create a management group |
+| [03-resource-group](https://github.com/jonhider/terraform-examples-azure/tree/main/code/03-resource-group) | Create an Azure resource group |
+| [04-storage-account](https://github.com/jonhider/terraform-examples-azure/tree/main/code/04-storage-account) | Create a storage account |
+| [05-variables](https://github.com/jonhider/terraform-examples-azure/tree/main/code/05-variables) | Create an Azure object using variables |
+| [06-terraform-state](https://github.com/jonhider/terraform-examples-azure/tree/main/code/06-terraform-state) | Terraform state |
+| [07-depends_on](https://github.com/jonhider/terraform-examples-azure/tree/main/code/07-depends_on) | ```depends_on``` to manage execution and dependencies |
+| [08-container-blob](https://github.com/jonhider/terraform-examples-azure/tree/main/code/08-container-blob) | Create an Azure blob storage container |
+| [09-network-security-group](https://github.com/jonhider/terraform-examples-azure/tree/main/code/09-network-security-group) | Create an Azure network security group |
+| [10-virtual-network](https://github.com/jonhider/terraform-examples-azure/tree/main/code/10-virtual-network) | Create an Azure virtual network (Vnet) |
+| [11-public-ip](https://github.com/jonhider/terraform-examples-azure/tree/main/code/11-public-ip) | Create a public ip address for vm public accessiblity |
+| [12-load-balancer](https://github.com/jonhider/terraform-examples-azure/tree/main/code/12-load-balancer) | Manage Azure traffic with an Azure load balancer |
+| [13-modules](https://github.com/jonhider/terraform-examples-azure/tree/main/code/13-modules) | Terraform modules |
+| [14-provisioners](https://github.com/jonhider/terraform-examples-azure/tree/main/code/14-provisioners) | Terraform provisioners |
+| [15-loops](https://github.com/jonhider/terraform-examples-azure/tree/main/code/15-loops) | Terraform loops |
+| [16-functions](https://github.com/jonhider/terraform-examples-azure/tree/main/code/16-functions) | Terraform functions |
+| |  |
 
 
 ## Terraform CLI
